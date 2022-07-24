@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Liks </title>
+    <style> 
+
+    h1{
+        font-size: 3em;
+        text-align: left;
+    }
+
+   
+
+    body{
+
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    a{
+        color: rgb(233, 13, 13);
+        text-decoration: none;
+        font-weight: bold;
+    }
+    
+    a:visited {
+
+        color: rgb(33, 189, 33);
+    }
+
+    a:hover{
+
+        text-decoration: underline;
+        color: black;
+    }
+
+    a:active{
+
+        color: yellow;
+    }
+
+    .especial{
+
+        background-color: rgb(213, 238, 213);
+    }
+
+    .especial::after{
+
+        content: ' ←';
+        text-decoration: none;
+        font-weight: normal;
+        color: rgb(0, 0, 0);
+    }
+
+    .especial::before{
+        content: '→ ';
+        text-decoration: none;
+        font-weight: normal;
+        color: rgb(0, 0, 0);
+
+    }
+    </style>
+</head>
+<body>
+<h1> Personalizando links</h1>
+    <ul>
+        <li> <a href="https://www.instagram.com/paulitolol_/" target="blank" rel="external" class="especial">Instagram</a> </li>
+        <li> <a href="https://www.youtube.com/channel/UCbC1TgRD-S1r6IC0glcuErg" target="blank" rel="external">Youtube</a> </li>
+        <li> <a href="https://www.reddit.com/user/paulitoneves" target="blank" rel="external" class="especial" ">Reddit</a> </li>
+    </ul>
+</body>
+</html>

@@ -1,0 +1,27 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Fredoka+One&family=Kaushan+Script&display=swap');
+
+
+body{
+
+    background-color: #61D8FF;
+    background-image: linear-gradient(to top,#308baf, #70dbff );
+    background-attachment: fixed;
+}
+
+h1{ 
+    font-family: 'Fredoka One', cursive;
+    font-size: 25px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 2px 1px rgba(109, 109, 109, 0.911);
+    background-color: #e2df31f1;
+    border-radius: 10px;
+    padding: 10px;
+    width: 1330px
+}
+
+
+
